@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+footer {
+  width: 100%;
+  background: #ffffff;
+  margin: 0;
+}
+.footer-bottom {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.footer-top-about {
+  width: 200px;
+  font-family: Poppins;
+  color: #281919;
+}
+
+.footer-top h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-top-help ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-top-contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-top-contact a {
+  display: flex;
+  flex-direction: row;
+}
+body {
+  margin: 0;
+}
+
+.nav-wrapper {
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-logo {
+  height: 100%;
+  width: auto;
+}
+.nav-link {
+  align-items: right;
+  margin: auto 0;
+}
+.nav-link form {
+  width: 50px;
+  display: inline;
+}
+.nav-link-item {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 60px;
+  color: black;
+  text-decoration: none;
+}
+.nav-link-item:hover {
+  color: #5bd820;
+}
+
+footer {
+  background-color: #5bd820;
+}
+.hero-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.hero-content {
+  padding: 10px 50px;
+  background-color: red;
+  height: 100%;
+  list-style: none;
+}
+
+.hero-content > li {
+  width: 200px;
+  background-color: blue;
+  position: relative;
+}
+.hero-content > li::before {
+  content: "";
+  background-image: url("images/video-icon.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50px;
+  width: 10px;
+}
+.ari {
+  background-color: aqua;
+}
